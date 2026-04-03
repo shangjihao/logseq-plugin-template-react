@@ -2,9 +2,6 @@
 
 name: Releases
 
-env:
-  PLUGIN_NAME: logseq-unlink-when-delete
-
 # Controls when the action will run.
 on:
   push:
