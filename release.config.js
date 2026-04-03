@@ -22,7 +22,7 @@ module.exports = {
       "@semantic-release/exec",
       {
         prepareCmd:
-          `zip -qq -r ${pkg.name}-${nextRelease.version}.zip dist readme.md logo.svg LICENSE package.json`,
+          `zip -qq -r ${pkg.name}-\${nextRelease.version}.zip dist readme.md logo.svg LICENSE package.json`,
       },
     ],
     [
